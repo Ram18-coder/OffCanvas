@@ -1,0 +1,11 @@
+<div class="container">
+  <button (click)="startMigration()">Start</button>
+  <div class="canvas" [class.show]="showCanvas">
+    {{data}}
+    <div class="process-container">
+      <div class="process" [style.width.%]="process"></div>
+    </div>
+  </div>
+
+  <button (click)="toggle()" class="toggle-button">PopUp</button>
+</div>

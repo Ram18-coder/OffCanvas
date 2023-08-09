@@ -1,0 +1,41 @@
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(175, 230, 230);
+
+}
+
+.canvas{
+  position: fixed;
+  bottom: -100px;
+  left:0;
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  transition: bottom 0.3s;
+}
+
+.canvas.show{
+  bottom: 0;
+}
+
+.process-container{
+  width: 100%;
+  height: 10px;
+  background-color: #ccc;
+  margin-top: 10px;
+}
+
+.process{
+  height: 100%;
+  background-color: #4caf50;
+}
+
+.toggle-button {
+  margin-top: 10px;
+}

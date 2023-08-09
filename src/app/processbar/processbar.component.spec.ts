@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ProcessbarComponent } from './processbar.component';
+
+describe('ProcessbarComponent', () => {
+  let component: ProcessbarComponent;
+  let fixture: ComponentFixture<ProcessbarComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [ProcessbarComponent]
+    });
+    fixture = TestBed.createComponent(ProcessbarComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
